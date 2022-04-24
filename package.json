@@ -1,0 +1,22 @@
+{
+  "name": "advanced-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sandbox2.js",
+  "scripts": {
+    "dev": "nodemon fromCodePoint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dev-ayman74/Advanced-Javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dev-ayman74/Advanced-Javascript/issues"
+  },
+  "homepage": "https://github.com/Dev-ayman74/Advanced-Javascript#readme",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
