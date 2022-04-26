@@ -1,0 +1,95 @@
+/**
+ * Javascript functions example
+ */
+
+// function expression
+function meet() {
+    console.log('my first function')
+}
+// calling the function 
+meet() // Output: my first function
+
+/** 
+ * Anonymous Function Example
+*/
+
+let walk = function(){
+    console.log('Welcome to anonymous function')
+}
+// calling the function
+walk() // Output:Welcome to anonymous function
+
+// setTime function
+setTimeout(function(){
+    console.log('This function will be run after 3 seconds')
+}, 3000) // Output  wait 3 seconds: 'This function will be run after 3 seconds'
+
+/**
+ * Immediately invoke the function expression or IIFE
+ */
+function go() {
+    console.log('Test function')
+}
+go()
+
+ // Constructor function
+
+ const add = new Function('x', 'z', 'return x + z');
+ const substract = new Function('a', 'b', 'return a - b');
+ console.log(` The add function outoput is : ${add(22,88)} and the substract function output is: ${substract(100,37)} `)
+
+
+ // Constructor function
+ function Avatar(){
+     this.person = 'Ali',
+     this.age = 23
+ }
+ //Create new Avatar(object)
+ const avatar = new Avatar();
+console.log(avatar.person, avatar.age)
+
+
+// Multiple Objects
+
+let Name = function (name, age){
+    this.name= name;
+    this.age= age;
+};
+// Create your first object instance
+
+const name1 = new Name('Mohamad', 34);
+
+// Create your second object instance
+const name2 = new Name('Fabian', 40)
+console.log(name1.name, name1.age);
+console.log(name2.name, name2.age)
+
+// Arrow functions
+
+let city = (a,b) => {
+    let sum = a + b;
+    return sum
+}
+let sum2=(24, 56)
+console.log(sum2)
+
+
+
+// Asynchronous functions as following
+// asyncFunction()
+//     .then(() => asyncFunction1())
+//     .then(() => asyncFunction2())
+//     .then(() => finish)
+
+    //Async await functions
+
+
+
+
+
+
+
+
+
+
+
