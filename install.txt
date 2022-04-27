@@ -35,5 +35,7 @@ WITH
   Congrates!! 
 
   your code is now running all the time no need to restart the console.
+  If you add a new file.js you must close the nodemon server update the file package.json with your new file.js,  then run the command line again 
+  npm run dev.
   
 
