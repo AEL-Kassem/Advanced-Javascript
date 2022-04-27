@@ -3,3 +3,4 @@ const Two = 'thing';
 
 const three = One.concat(Two)
 console.log(`The result of two constructor now is ${three} `);
+//Output: The result of two constructor now is Something
