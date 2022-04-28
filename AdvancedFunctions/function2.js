@@ -1,4 +1,4 @@
-let school = { // the same object, compressed for brevity
+let school = { 
     output: [{firstName: 'Alex', given: 33}, {firstName: 'Eyan', given: 10 }],
     student: {
       classes: [{firstName: 'Henry', given: 4}, {firstName: 'Joe', given: 73 }],
