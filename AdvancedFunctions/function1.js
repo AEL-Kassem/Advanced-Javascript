@@ -21,7 +21,7 @@ function example(a, b) {
   
   alert( example(3, 3) ); // Output: the same 27;
 
-  // but shorter function we can use ternary operator:
+  // We can use the shorter function : Ternary operator:
   function  exam(a, b) {
       return (b == 1) ? a : (a * exam(a, b -1))
   }
