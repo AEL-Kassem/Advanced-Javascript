@@ -6,7 +6,7 @@ let school = {
     }
   };
   
-  // The function to do the job
+  // Function2 sumSalaries doing the Calculation now;
   function sumSalaries(firstArray) {
     if (Array.isArray(firstArray)) { // case (1)
       return firstArray.reduce((pro, total) => pro + total.given, 0); // sum the array
