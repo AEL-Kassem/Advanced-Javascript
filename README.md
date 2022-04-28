@@ -4,15 +4,16 @@ Welcome to my Advanced Javascript Tutorials;
 i will put here many examples as possible to test the functionality of the modern Javascript.
 
 
-To run your code via Terminal in your Visual Studio code just install;
+To run your code via Terminal in your Visual Studio code and keep it running while testing your functions just install;
 - node js =>> https://nodejs.org/en/ 
 - vscode  =>> https://code.visualstudio.com/
 
 Follow instructions: 
 open vscode
 1. new Folder
-2. npm init -y
-3. npm install nodemon
+2. sandbox.js
+3. npm init -y
+4. npm install nodemon
 
 go to package.json and replace the following code to run your javascript file every time you want to test any 
 functionality from your project
