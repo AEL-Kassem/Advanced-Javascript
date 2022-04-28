@@ -13,7 +13,7 @@ let school = {
     } else { // case (2)
       let sum = 0;
       for (let success of Object.values(firstArray)) {
-        sum += sumSalaries(success); // recursively call for subdepartments, sum the results
+        sum += sumSalaries(success); //  sum the results
       }
       return sum;
     }
